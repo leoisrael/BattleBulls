@@ -1,0 +1,21 @@
+{
+  "name": "battlebulls",
+  "version": "1.0.0",
+  "description": "📡 GatilhoWatch – Monitor Inteligente de Gatilhos de Investimento com Alerta por E-mail 🧠 Objetivo O GatilhoWatch é uma aplicação que monitora ativos estratégicos para cenários de crise geopolítica, inflação e instabilidade econômica, com o objetivo de alertar o investidor sempre que um gatilho de ação pré-definido for ativado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^7.0.3",
+    "yahoo-finance2": "^2.13.3"
+  }
+}
