@@ -147,3 +147,12 @@ Verificar gatilhos com base em histórico
 Enviar e-mails claros com recomendações táticas
 
 Ser configurável e extensível com novos ativos
+
+## Como usar
+
+1. Renomeie `.env.example` para `.env` e preencha com suas credenciais de SMTP.
+2. Instale as dependências com `npm install`.
+3. Execute `node monitor.js` para iniciar o monitoramento. O script agenda uma verificação diária às 9h da manhã e também roda imediatamente ao iniciar.
+4. Opcionalmente, adicione `cronjob.sh` ao crontab para execução em servidores sem Node cron.
+
+Os gatilhos podem ser personalizados editando `gatilhos.json`.
